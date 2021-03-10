@@ -14,6 +14,9 @@
 
     <properties>
         <presto.version>0.172</presto.version>
+        <maven.compiler.source>1.6</maven.compiler.source>
+        <maven.compiler.target>1.6</maven.compiler.target>
+
     </properties>
 
     <dependencies>
@@ -33,7 +36,10 @@
             <artifactId>slf4j-log4j12</artifactId>
             <version>1.7.16</version>
         </dependency>
-    </dependencies>
-
-    
+        <dependency>
+            <groupId>com.microsoft.azure</groupId>
+            <artifactId>applicationinsights-logging-log4j1_2</artifactId>
+            <version>1.0.10</version>
+        </dependency>
+   </dependencies>
 </project>
