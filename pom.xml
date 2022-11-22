@@ -13,7 +13,7 @@
     </build>
 
     <properties>
-        <presto.version>0.172</presto.version>
+        <presto.version>0.277</presto.version>
         <maven.compiler.source>1.6</maven.compiler.source>
         <maven.compiler.target>1.6</maven.compiler.target>
 
